@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<title>Order Now!</title>
+<head style="background-color:rgb(243, 169, 197)">
+<nav>
+    <a href="final.html">Go to back to home screen</a>
+</nav>
+<h1 style="color:rgb(0, 0, 0); background-color: red;">Order Now!</h1>
+<h3 style="color:rgb(123, 3, 170)">
+<img src="http://u.filein.io/8YetVa1gou.png" alt="logo2" width="600" height="400">
+
+
+<form>
+    <input type="checkbox" id="mir" name="mr" value="Mini Robot">
+    <label for="e1"> Mini Robot | 1.5 ft | Price: $36.00 </label> <br>
+    <input type="checkbox" id="mer" name="mer" value="Medium sized robot" >
+    <label for="e2"> Medium Robot | 3.5 ft | Price: $73.00 </label> <br>
+    <input type="checkbox" id="lr" name="lr" value="Large sized robots" >
+    <label for="e3"> Large Robot | 5.5 ft | Price: $105.00 </label> <br>
+</form>
+</h3>
+<h2 style="background-color: rgb(29, 184, 76);">Generations</h2>
+<h3 style="color:rgb(123, 3, 170)">
+<form>
+    <input type="radio" id="g1" name="generations" value="Generation 1">
+    <label for="g1"> Generation 1 | Price: + $24 to original | + 5 more features | </label> <br>
+    <input type="radio" id="g2" name="generations" value="Generation 2">
+    <label for="g2"> Generation 2 | Price: + $36 to original | + 10 more feature | </label> <br>
+    <input type="radio" id="g3" name="generations" value="Generation 3">
+    <label for="g3"> Generation 3 | Price: + $43 to original | + 15 more feature | </label> <br>
+
+    <h3>Billing details:</h3>
+    <h4 style="color:blue">First name: </h4>
+    <textarea name="fname" id="fname" rows="1" data-rule="required" placeholder="Type your first name here"></textarea> <br> 
+    <h4 style="color:blue">Last name: </h4>
+    <textarea name="lname" id="lname" rows="1" data-rule="required" placeholder="Type your last name here"></textarea> <br> 
+    <h4 style="color:blue"> Shipping address: </h4>
+    <textarea name="Address" id="Address" rows="1" data-rule="required" placeholder="Type in your shipping address here"></textarea> <br> 
+    <h4 style="color:blue">Country: </h4>
+    <textarea name="Country" id="Country" rows="1" data-rule="required" placeholder="Type your country here"></textarea> <br> 
+    <h4 style="color:blue">City: </h4>
+    <textarea name="City" id="City" rows="1" data-rule="required" placeholder="Type your city here"></textarea> <br> 
+    <h4 style="color:blue">Zip/Postal Code</h4>
+    <textarea name="Zip/Postal Code" id="Zip/Postal Code" rows="1" data-rule="required" placeholder="Type your Zip/Postal code here"></textarea> <br> 
+    <h4 style="color:blue">State/Province: </h4>
+    <textarea name="state/Province" id="state/Province" rows="1" data-rule="Type your state/province here" placeholder="Type your city here"></textarea> <br> 
+    </h3>
+
+    <h3 style="color:blueviolet">Shipping Method: </h3>
+    <input type="radio" id="fs" name="Shipping" value="Free shipping" data-rule="required">
+    <label for="Shipping">Free Shipping | 7 to 14 days |Price: $0.00 </label> <br>
+    <input type="radio" id="EMS" name="Shipping" value="EMS" data-rule="required">
+    <label for="EMS">Express Mail Shipping | 2-5 days | Price: $13.21</label>
+
+    <h3 style="color:blueviolet">Payment Method:</h3>
+    <input type="radio" id="pp" name="payment" value="PayPal" data-rule="required">
+    <label for="pp"> Paypal </label> <br>
+    <input type="radio" id="cc" name="payment" value="Credit Card" data-rule="required">
+    <label for="cc"> Credit Card </label>
+
+    <h3 style="color:blueviolet">Extra: </h3>
+    <h4 style="color:blue">Coupons: </h4>
+    <textarea name="Coupons" id="Coupons" rows="1" data-rule="required" placeholder="Place your coupons here"></textarea> <br> 
+    <h4 style="color:blue">Gift Card: </h4>
+    <textarea name="Giftcard" id="Giftcard" rows="1" data-rule="required" placeholder="Type the gift card code here"></textarea> <br> 
+    <h4 style="color: blue;">Comments: </h4>
+    <textarea name="comments" id="comments" rows="3" data-rule="required" placeholder="Place your comments on here"></textarea> <br> 
+    <input type="checkbox" id="gm" name="gm" value="Gift Message">
+    <label for="e1"> Add a Gift Message </label> <br>
+    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+    <label for="e1"> Subscribe to our Newsletter </label> <br>
+    <input type="checkbox" id="tc" name="tc" value="Terms and Conditions" data-rule="required">
+    <label for="tc"> I accept to the terms and conditions </label> <br> <br>
+    
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <style>
+    .button {
+        background-color: rgb(209, 12, 88);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border:rgb(0, 0, 95);
+        color:rgb(8, 2, 95);
+        padding: 16px 32 px;
+        border-radius: 8px;
+        text-align:center;
+        font-size: 20px;
+        opacity:0.4;
+        transition:0.2s;
+        display: inline-block;
+        cursor:pointer;
+    }
+
+    .button:hover {opacity: 1.2}
+    </style>
+    <button class="button">Order Now</button>
+    
+
+</form>
+
+</head>
